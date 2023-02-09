@@ -40,6 +40,17 @@ body {
   text-align: center;
 }
 
+.wallet-status {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-address {
+  margin-left: 1.5rem;
+}
+
 .grid {
   display: flex;
   align-items: center;

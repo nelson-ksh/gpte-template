@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { CardanoWallet, MeshBadge } from "@meshsdk/react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,19 +14,19 @@ export default function Home() {
         </h1>
 
         <div className="grid">
-          <a href="https://gitlab.com/gimbalabs/plutus-pbl-summer-2022/projects/gpte/gpte-plutus-v2/-/blob/master/readme.md" className="card">
+          <Link href="https://gitlab.com/gimbalabs/plutus-pbl-summer-2022/projects/gpte/gpte-plutus-v2/-/blob/master/readme.md" className="card">
             <h2>Documentation</h2>
             <p>
               Learn escrow contract components.
             </p>
-          </a>
+          </Link>
           
           <div className="card">
             <h2>Create Contract</h2>
               {/* Create Escrow Contract <br/><br/> */}
-              <a className="demeter-button">
+              <Link href="#" className="demeter-button">
                 Demeter.run
-              </a>
+              </Link>
           </div>
         </div>
         
