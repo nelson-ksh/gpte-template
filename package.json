@@ -1,9 +1,9 @@
 {
-  "name": "starter-next-ts-template",
-  "description": "A Mesh starter template",
+  "name": "gpte-template",
+  "description": "A GPTE front-end template",
   "version": "0.1.0",
   "private": true,
-  "author": "MeshJS",
+  "author": "Gimbalabs",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "next dev",

@@ -5,58 +5,55 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Mesh App on Cardano</title>
+        <title>Gimbal Project Treasury and Escrow</title>
         <meta name="description" content="A Cardano dApp powered my Mesh" />
-        <link
+        {/* <link
           rel="icon"
           href="https://meshjs.dev/favicon/favicon-32x32.png"
-        />
-        <link
+        /> */}
+        {/* <link
           href="https://meshjs.dev/css/template.css"
           rel="stylesheet"
           key="mesh-demo"
-        />
+        /> */}
       </Head>
 
       <main className="main">
         <h1 className="title">
-          <a href="https://meshjs.dev/">Mesh</a> Next.js
+          <a href="https://gimbalabs.com">Gimbalabs</a> GPTE
         </h1>
 
-        <div className="demo">
+        <div className="connect">
           <CardanoWallet />
         </div>
 
         <div className="grid">
-          <a href="https://meshjs.dev/apis" className="card">
-            <h2>Documentation</h2>
+          <a href="#" className="card">
+            <h2>Projects</h2>
             <p>
-              Our documentation provide live demos and code samples; great
-              educational tool for learning how Cardano works.
+              Start your Cardano development journey by participating in projects and making impactful contributions.
             </p>
           </a>
 
-          <a href="https://meshjs.dev/guides" className="card">
-            <h2>Guides</h2>
+          <a href="#" className="card">
+            <h2>Contributions</h2>
             <p>
-              Whether you are launching a new NFT project or ecommerce store,
-              these guides will help you get started.
+              Keep track of your commitments along with ongoing and fulfilled contributions from peers.
             </p>
           </a>
 
-          <a href="https://meshjs.dev/react" className="card">
-            <h2>React components</h2>
+          <a href="/manage" className="card">
+            <h2>Manage</h2>
             <p>
-              Useful React UI components and hooks, seamlessly integrate them
-              into your app, and bring the user interface to life.
+              Update treasury by seamlessly adding funds and tokens, and distribute rewards for escrow commitments with ease.
             </p>
           </a>
         </div>
       </main>
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <MeshBadge dark={true} />
-      </footer>
+      </footer> */}
     </div>
   );
 }
