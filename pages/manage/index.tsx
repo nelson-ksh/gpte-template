@@ -9,37 +9,44 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <h1 className="title">
+        {/* <h1 className="title">
           Escrow
-        </h1>
+        </h1> */}
 
         <div className="grid">
-          <Link href="/manage/escrow" className="card">
-            <h2>Initialize Escrow</h2>
+          <Link href="/manage/contracts" className="card">
+            <h2>Initialize Contracts</h2>
             <p>
-              Initialize a new escrow contract.
+              Initialize new Escrow / Treasury contract.
+            </p>
+          </Link>
+
+          <Link href="#" className="card">
+            <h2>New Token</h2>
+            <p>
+              Mint a new contributor token.
             </p>
           </Link>
           
           <Link href="#" className="card">
-            <h2>Distribute Commits</h2>
+            <h2>Distribute Rewards</h2>
             <p>
-              Distribute completed commits.
+              Distribute completed commitments.
             </p>
           </Link>
         </div>
 
-        <h1 className="title">
+        <h1 className="title" style={{marginTop: "50px"}}>
           Treasury
         </h1>
 
         <div className="grid">
-          <Link href="#" className="card">
+          {/* <Link href="#" className="card">
             <h2>Initialize Treasury</h2>
             <p>
               Initialize a new treasury contract.
             </p>
-          </Link>
+          </Link> */}
 
           <Link href="#" className="card">
             <h2>Fund Treasury</h2>
@@ -56,7 +63,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <h1 className="title">
+        <h1 className="title" style={{marginTop: "50px"}}>
           Projects
         </h1>
 
@@ -83,7 +90,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <h1 className="title">
+        {/* <h1 className="title">
           Contributor Token
         </h1>
 
@@ -94,7 +101,7 @@ export default function Home() {
               Mint a new contributor token.
             </p>
           </Link>
-        </div>
+        </div> */}
       </main>
 
     </div>

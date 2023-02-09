@@ -122,8 +122,9 @@ body {
   cursor: pointer;
   font-family: Liberation Mono;
   color: azure;
-  background-color: #d82143;
+  background-color: #dd62fd;
   font-weight: bolder;
+  text-decoration: none;
 }
 
 .connect button:disabled {

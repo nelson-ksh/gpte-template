@@ -9,15 +9,15 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <h1 className="title">
+        {/* <h1 className="title">
           Escrow Contract
-        </h1>
+        </h1> */}
 
         <div className="grid">
           <Link href="https://gitlab.com/gimbalabs/plutus-pbl-summer-2022/projects/gpte/gpte-plutus-v2/-/blob/master/readme.md" className="card">
             <h2>Documentation</h2>
             <p>
-              Learn escrow contract components.
+              Learn about the contracts.
             </p>
           </Link>
           
@@ -29,9 +29,9 @@ export default function Home() {
               </Link>
           </div>
         </div>
-        
-        {/* <a href="https://demeter.run/starter-kits">https://demeter.run/starter-kits</a><br/>
-        <a href="https://github.com/txpipe/awesome-starter-kits">https://github.com/txpipe/awesome-starter-kits</a> */}
+        TO-DO
+        <Link href="https://demeter.run/starter-kits">https://demeter.run/starter-kits</Link>
+        <Link href="https://github.com/txpipe/awesome-starter-kits">https://github.com/txpipe/awesome-starter-kits</Link>
 
       </main>
 
