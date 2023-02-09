@@ -1,8 +1,8 @@
-# Starter Next.js TypeScript
+# GPTE Next.js TypeScript
 
-Start a new project on Next.js. This starter template consists of a connect wallet button and wallet integration.
+Start a new project on Next.js. This template consists of an implementation of Gimbal Project Treasury and Escrow (GPTE).
       
-## Getting Started
+<!-- ## Getting Started
 
 Start project locally using CLI:
 
@@ -32,4 +32,4 @@ Whether you are new to web development or a seasoned blockchain full-stack devel
 
 Follow us on [Twitter](https://twitter.com/meshsdk) for updates.
 
-Join our [Discord](https://discord.gg/Z6AH9dahdH) for any questions and suggestions.
+Join our [Discord](https://discord.gg/Z6AH9dahdH) for any questions and suggestions. -->
