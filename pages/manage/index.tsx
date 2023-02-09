@@ -82,6 +82,19 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <h1 className="title">
+          Contributor Token
+        </h1>
+
+        <div className="grid">
+          <a href="#" className="card">
+            <h2>New Token</h2>
+            <p>
+              Mint a new contributor token.
+            </p>
+          </a>
+        </div>
       </main>
 
     </div>
